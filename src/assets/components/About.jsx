@@ -1,3 +1,8 @@
+/**
+ * Images
+ */
+import logo from "/star-logo.svg"
+
 const aboutItems = [
   {
     label: "Project done",
@@ -32,7 +37,7 @@ const About = () => {
               </div>
             ))}
             <img
-              src="/star-logo.svg"
+              src={logo}
               alt="Logo"
               className="ml-auto md:w-[40px] md:h-[40px]"
               width={30}

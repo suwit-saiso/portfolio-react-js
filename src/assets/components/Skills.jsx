@@ -2,45 +2,56 @@
  * Components
  */
 import SkillCard from "./SkillCard";
+/**
+ * Images
+ */
+import figma from '../images/figma.svg'
+import css from '../images/css3.svg'
+import javascript from '../images/javascript.svg'
+import nodejs from '../images/nodejs.svg'
+import expressjs from '../images/expressjs.svg'
+import mongodb from '../images/mongodb.svg'
+import react from '../images/react.svg'
+import tailwindcss from '../images/tailwindcss.svg'
 
 const skillItem = [
   {
-    imgSrc: 'src/assets/images/figma.svg',
+    imgSrc: {figma},
     label: 'Figma',
     desc: 'Design tool'
   },
   {
-    imgSrc: 'src/assets/images/css3.svg',
+    imgSrc: {css},
     label: 'CSS',
     desc: 'User Interface'
   },
   {
-    imgSrc: 'src/assets/images/javascript.svg',
+    imgSrc: {javascript},
     label: 'JavaScript',
     desc: 'Interaction'
   },
   {
-    imgSrc: 'src/assets/images/nodejs.svg',
+    imgSrc: {nodejs},
     label: 'NodeJS',
     desc: 'Web Server'
   },
   {
-    imgSrc: 'src/assets/images/expressjs.svg',
+    imgSrc: {expressjs},
     label: 'ExpressJS',
     desc: 'Node Framework'
   },
   {
-    imgSrc: 'src/assets/images/mongodb.svg',
+    imgSrc: {mongodb},
     label: 'MongoDB',
     desc: 'Database'
   },
   {
-    imgSrc: 'src/assets/images/react.svg',
+    imgSrc: {react},
     label: 'React',
     desc: 'Framework'
   },
   {
-    imgSrc: 'src/assets/images/tailwindcss.svg',
+    imgSrc: {tailwindcss},
     label: 'TailwindCSS',
     desc: 'User Interface'
   },
