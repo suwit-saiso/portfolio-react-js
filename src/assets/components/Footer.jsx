@@ -29,23 +29,23 @@ const sitemap = [
 const socials = [
   {
     label: 'GitHub',
-    href: 'https://www.github.com/codewithsadee-org'
+    href: 'https://github.com/suwit-saiso'
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/codewithsadee'
+    href: ''
   },
   {
     label: 'Twitter X',
-    href: 'https://x.com/codewithsadee_'
+    href: ''
   },
   {
     label: 'Instagram',
-    href: 'https://www.instagram.com/codewithsadee'
+    href: 'https://www.instagram.com/eqrth.ss/'
   },
   {
     label: 'CodePen',
-    href: 'https://codepen.io/codewithsadee'
+    href: ''
   }
 ];
 
@@ -94,7 +94,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center justify-between pt-10 mb-8">
                     <a href="/" className="logo reveal-up">
-                        <img src="/star-logo.svg" width={40} height={40} alt="Logo" />
+                        <img src="./star-logo.svg" width={40} height={40} alt="Logo" />
                     </a>
                     <p className="text-zinc-500 text-sm reveal-up">
                         &copy; 2025 <span className="text-zinc-200">suwitsaiso</span>

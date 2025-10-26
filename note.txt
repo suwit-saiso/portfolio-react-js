@@ -1,1 +1,0 @@
-scrollbar-thin scrollbar-track-zinc-800 scrollbar-thumb-zinc-500

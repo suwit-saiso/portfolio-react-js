@@ -14,7 +14,7 @@ const Header = () => {
       <div className="max-w-screen-2xl w-full mx-auto px-4 md:px-6 layout-flex-grid">
         <h1>
           <a href="#home" className="logo">
-            <img src="/portfolio-react-js/star-logo.svg" width={40} height={40} alt="Suwit Saiso" />
+            <img src="star-logo.svg" width={40} height={40} alt="Suwit Saiso" />
           </a>
         </h1>
         <div className="relative md:justify-self-center">

@@ -2,43 +2,47 @@
  * Components
  */
 import ProjectCard from "./ProjectCard";
+/**
+ * Images
+ */
+import cover from "../images/hero-banner.png"
 
 const works = [
   {
-    imgSrc: '/src/assets/images/hero-banner.png',
-    title: 'Full stack music app',
+    imgSrc: cover,
+    title: 'Project name',
     tags: ['API', 'MVC', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/'
+    projectLink: ''
   },
   {
-    imgSrc: '/src/assets/images/hero-banner.png',
-    title: 'Free stock photo app',
+    imgSrc: cover,
+    title: 'Project name',
     tags: ['API', 'SPA'],
-    projectLink: 'https://pixstock-official.vercel.app/'
+    projectLink: ''
   },
   {
-    imgSrc: '/src/assets/images/hero-banner.png',
-    title: 'Recipe app',
+    imgSrc: cover,
+    title: 'Project name',
     tags: ['Development', 'API'],
     projectLink: ''
   },
   {
-    imgSrc: '/src/assets/images/hero-banner.png',
-    title: 'Real state website',
+    imgSrc: cover,
+    title: 'Project name',
     tags: ['Web-design', 'Development'],
-    projectLink: 'https://github.com/codewithsadee-org/wealthome'
+    projectLink: ''
   },
   {
-    imgSrc: '/src/assets/images/hero-banner.png',
-    title: 'eCommerce website',
+    imgSrc: cover,
+    title: 'Project name',
     tags: ['eCommerce', 'Development'],
-    projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
+    projectLink: ''
   },
   {
-    imgSrc: '/src/assets/images/hero-banner.png',
-    title: 'vCard Personal portfolio',
+    imgSrc: cover,
+    title: 'Project name',
     tags: ['Web-design', 'Development'],
-    projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+    projectLink: ''
   },
 ];
 

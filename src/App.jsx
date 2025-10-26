@@ -3,7 +3,7 @@
  */
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import useLenis from "./useLenis";
+import {ReactLenis} from "lenis/react";
 import {useGSAP} from '@gsap/react';
 /**
  * Register GSAP plugins
@@ -22,7 +22,6 @@ import Contact from "./assets/components/Contact";
 import Footer from "./assets/components/Footer";
 
 const App = () => {
-  useLenis();
   useGSAP(() => {
     const elements = gsap.utils.toArray('.reveal-up');
     elements.forEach((element) => {
@@ -41,18 +40,18 @@ const App = () => {
     });
   });
   return (
-    <>
+    <ReactLenis root>
       <Header />
       <main>
         <Hero />
         <About />
         <Skills />
         <Work />
-        <Review />
+        {/* <Review /> */}
         <Contact />
       </main>
       <Footer />
-    </>
+    </ReactLenis>
   );
 };
 export default App;

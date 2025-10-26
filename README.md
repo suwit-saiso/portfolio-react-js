@@ -1,16 +1,79 @@
-# React + Vite
+# portfolio-react-js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio web app built with React.js to showcase projects, skills and contact information. This repository contains a modern, responsive, and accessible frontend scaffold ready for customization and deployment.
 
-Currently, two official plugins are available:
+## Features
+- Responsive layout for mobile and desktop
+- Project gallery with links and screenshots
+- About / skills section
+- Contact form (or mailto link)
+- Easy theming (light/dark)
+- SEO-friendly routes and meta tags
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech stack
+- React (functional components + hooks)
+- React Router (optional)
+- CSS Modules / Tailwind / styled-components (choose one)
+- Vite or Create React App (project-specific)
 
-## React Compiler
+> Replace or adapt the above stack to match the actual tools used in this repo.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Prerequisites
+- Node.js (14+ recommended)
+- npm or yarn
 
-## Expanding the ESLint configuration
+## Quick start
+1. Clone the repo
+    - git clone <repository-url>
+2. Install dependencies
+    - npm install
+    - or
+    - yarn
+3. Run development server
+    - For Vite: npm run dev
+    - For Create React App: npm start
+4. Build production bundle
+    - npm run build
+5. Preview production build (if available)
+    - npm run preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Adjust scripts in package.json if your project uses different commands.
+
+## Common scripts
+- npm run dev — start local dev server
+- npm start — start dev server (CRA)
+- npm run build — create production build
+- npm run preview — serve production build locally
+- npm test — run tests
+- npm run lint — run linter and format checks
+
+## Recommended project structure
+- /public — static assets
+- /src
+  - /components — reusable UI components
+  - /pages — route pages
+  - /assets — images, icons
+  - /styles — global styles or theme
+  - main.jsx | index.jsx — app entry
+- package.json
+- README.md
+
+## Deployment
+- Vercel / Netlify: connect repository, set build command to `npm run build`, publish directory `dist` (Vite) or `build` (CRA).
+- GitHub Pages: build locally and push the build output to `gh-pages` branch or use a deployment action.
+
+## Customization
+- Replace placeholder content in src/pages and src/components.
+- Update metadata (title, description, social images) in index.html or head management components.
+- Swap CSS solution or tweak theme variables.
+
+## Contributing
+- Open issues for bugs or feature requests.
+- Create pull requests with descriptive titles and linked issues.
+- Keep commits small and focused.
+
+## License
+This project is available under the MIT License. Update LICENSE file as needed.
+
+## Notes
+Update this README with project-specific commands, tools, and configuration after scaffolding or customizing the app.

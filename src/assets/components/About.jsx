@@ -1,16 +1,11 @@
-/**
- * Images
- */
-import logo from "/star-logo.svg"
-
 const aboutItems = [
   {
     label: "Project done",
-    number: 45,
+    number: 0,
   },
   {
     label: "Years of experience",
-    number: 10,
+    number: 0,
   },
 ];
 
@@ -20,11 +15,10 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            Welcome! I&apos;m Henry, a professional web developer with a knack
-            for crafting visually stunning and highly functional websites.
-            Combining creativity and technical expertise. I transform your
-            vision into digital masterpiece that excels in both appearance and
-            performance.
+            Hi I&apos; Suwit Saiso, and I hold a Bachelor’s degree in Computer Engineering from Naresuan University. During my studies, I built a solid foundation in computer systems, programming, and problem-solving, which has fueled my passion for computer networks and software development.
+          </p>
+          <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
+            I am a highly motivated individual who is always eager to improve my skills and knowledge. I enjoy exploring new technologies and continuously developing myself to adapt to the fast-changing IT landscape. My goal is to apply my abilities to create innovative solutions and contribute effectively to any team or organization I am part of.
           </p>
           <div className="flex flex-warp items-center gap-4 md:gap-7">
             {aboutItems.map(({ label, number }, key) => (
@@ -37,7 +31,7 @@ const About = () => {
               </div>
             ))}
             <img
-              src={logo}
+              src="star-logo.svg"
               alt="Logo"
               className="ml-auto md:w-[40px] md:h-[40px]"
               width={30}
